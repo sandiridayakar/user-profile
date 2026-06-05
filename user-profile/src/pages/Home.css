@@ -1,0 +1,9 @@
+.card{
+    text-align: left;
+    /* margin-left: 45px; */
+    /* align-items: center; */
+}
+.d-flex{
+    text-align: left;
+    justify-content: center;
+}

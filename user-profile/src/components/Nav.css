@@ -1,0 +1,13 @@
+#nav {
+    border: 1px;
+}
+
+#sub-nav {
+    width: 80%;
+    margin: auto;
+}
+.active-link {
+    color: red !important;
+    font-weight: bold;
+    border-bottom: 2px solid red;
+}

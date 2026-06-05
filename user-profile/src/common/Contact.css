@@ -1,0 +1,124 @@
+.card {
+  width: 350px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  overflow: hidden;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.card__img {
+  height: 180px;
+  background: linear-gradient(135deg,#413f3f,#a09e9e);
+}
+
+.card__avatar {
+  margin-top: -60px;
+}
+
+.card__avatar img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.card__title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.card__subtitle {
+  color: gray;
+  margin: 10px 0 20px;
+}
+
+.card__wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding-bottom: 20px;
+}
+
+.card__btn {
+  padding: 10px 20px;
+  /* border: 2px solid #FC726E; */
+  background: white;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.github{
+  /* background: #FC726E; */
+  color: rgb(32, 26, 26);
+}
+
+.social-box {
+  display: flex;
+  gap: 12px;
+  padding: 11px;
+  background: #111827;
+  border-radius: 14px;
+  width: fit-content;
+}
+
+.icon-btn {
+  width: 58px;
+  height: 58px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.github {
+  background: #1f2937;
+  color: white;
+}
+
+.linkedin {
+  background: #2563eb;
+  color: white;
+}
+
+.icon-btn:hover {
+  transform: translateY(-4px);
+}
+
+
+/* From Uiverse.io by Creatlydev */ 
+.btn-github {
+  cursor: pointer;
+  display: flex;
+  gap: 0.5rem;
+  border: none;
+
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  border-radius: 100px;
+  font-weight: 800;
+  place-content: center;
+
+  padding: 0.75rem 1rem;
+  font-size: 0.825rem;
+  line-height: 1rem;
+
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.04),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+  color: #fff;
+}
+
+.btn-github:hover {
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.08),
+    inset 0 0 0 1px rgba(252, 232, 3, 0.08);
+  color: #fce803;
+  transform: translate(0, -0.25rem);
+  background-color: rgba(0, 0, 0, 0.5);
+}
